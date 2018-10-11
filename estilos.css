@@ -63,3 +63,43 @@ body{
   margin: 10px 3px;
   border-radius: 2px;
 }
+
+.foot{
+  height: 45px;
+  background-color: #F4F4F4;
+  color: #7E807D;
+  display: block;
+}
+
+.foot p{
+  font-size: 17px;
+  vertical-align: middle;
+  display: inline-block;
+  padding: 0 25px;
+}
+
+.foot2{
+  display: block;
+  background-color: #F4F4F4;
+  border: 1px solid black;
+  height: 45px;
+}
+
+.izquierda{
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid black;
+}
+
+.derecha{
+  display: inline-block;
+  vertical-align: middle;
+  border: 1px solid black;
+}
+
+.foot2 a{
+  font-size: 17px;
+  text-decoration: none;
+  color: #7E807D;
+  padding: 0 25px;
+}
