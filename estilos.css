@@ -1,0 +1,65 @@
+body{
+}
+
+.cabezera{
+  display: block;
+  text-align: right;
+
+}
+
+.cabezera a {
+  color: black;
+  margin: 0 5px;
+  font-size: 15px;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+.cabezera img{
+  margin: 0 5px;
+  vertical-align: middle;
+
+}
+
+.Cuerpo{
+    display: block;
+    text-align: center;
+    margin: 60px 0;
+
+}
+
+.FormAndButtons{
+  display: block;
+}
+
+.FormAndButtons p{
+  font-size: 12px;
+}
+
+
+.Form{
+  border: 1px solid black;
+  display: inline-block;
+  padding: 1px;
+  margin: 10px 0;
+}
+
+.Form input{
+  border: 0;
+  width: 400px;
+  display: inline-block;
+}
+.Form img{
+  vertical-align: middle;
+}
+
+.Botones button{
+  background-color: #F4F4F4;
+  font-size: 13px;
+  border: 0;
+  padding: 8px 25px 8px 25px;
+  color: #7E807D;
+  font-family: cursive;
+  margin: 10px 3px;
+  border-radius: 2px;
+}
