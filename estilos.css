@@ -53,20 +53,33 @@ body{
 
 
 .Form{
-  border: 1px solid black;
+  border: 1px solid gray;
   display: inline-block;
   padding: 1px;
   margin: 10px 0;
+  height: 20px;
 }
 
 .Form input{
   border: 0;
   width: 400px;
+  height: 100%;
   display: inline-block;
+  vertical-align: top;
 }
 
-.Form img{
-  vertical-align: middle;
+.Form input:focus{
+  outline: none; /*Sin linea azul que rodea el input al ser seleccionado*/
+}
+
+.Form button{
+  vertical-align: top;
+  border: none;
+  background-color: none;
+}
+
+.Form button img{
+  height: 15px;
 }
 
 .Form form{
