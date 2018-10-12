@@ -1,10 +1,25 @@
+*{
+  padding: 0;
+  margin: 0;
+}
 body{
+
 }
 
 .cabezera{
   display: block;
   text-align: right;
+  padding: 15px;
+}
 
+.foto{
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+.cabezera a:hover{
+  text-decoration: underline;
 }
 
 .cabezera a {
@@ -49,14 +64,20 @@ body{
   width: 400px;
   display: inline-block;
 }
+
 .Form img{
   vertical-align: middle;
+}
+
+.Form form{
+
+    /*box-shadow: 0px 5px 0px 10px gray; */
 }
 
 .Botones button{
   background-color: #F4F4F4;
   font-size: 13px;
-  border: 0;
+  border: 1px solid transparent;
   padding: 8px 25px 8px 25px;
   color: #7E807D;
   font-family: cursive;
@@ -64,42 +85,64 @@ body{
   border-radius: 2px;
 }
 
+.Botones button:hover{
+  border: 1px solid black;
+
+}
+
 .foot{
-  height: 45px;
+  height: 35px;
   background-color: #F4F4F4;
   color: #7E807D;
   display: block;
+  border: 1px solid #C8C8C8;
 }
 
 .foot p{
   font-size: 17px;
-  vertical-align: middle;
-  display: inline-block;
+  margin: 8px 0;
   padding: 0 25px;
 }
 
 .foot2{
-  display: block;
   background-color: #F4F4F4;
-  border: 1px solid black;
-  height: 45px;
+  height: 35px;
+  border-left: 1px solid #C8C8C8;
+  border-right:  1px solid #C8C8C8;
+  border-bottom:  1px solid #C8C8C8;
 }
 
 .izquierda{
   display: inline-block;
-  vertical-align: middle;
-  border: 1px solid black;
+  float: right;
+  margin: 10px 0;
 }
 
 .derecha{
   display: inline-block;
-  vertical-align: middle;
-  border: 1px solid black;
+  margin: 10px 0;
 }
 
 .foot2 a{
+  display: inline-block;
   font-size: 17px;
   text-decoration: none;
   color: #7E807D;
   padding: 0 25px;
+}
+
+.foot2 a:hover{
+  text-decoration: underline;
+}
+
+.FormAndButtons p a{
+  text-decoration: none;
+  color: black;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
